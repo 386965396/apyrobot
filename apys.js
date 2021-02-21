@@ -549,7 +549,7 @@ const getApy = async() => {
 
     console.log("End for list");
 
-    
+    const time = new Date().getTime()
     db.set('time', moment(time).utcOffset(8).format('YYYY-MM-DD HH:mm')).write()
     db.set('total_fees', total_fees).write();
   }
