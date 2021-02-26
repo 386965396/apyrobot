@@ -402,7 +402,7 @@ const getCoinsInfo = async() => {
 }
 
 const axios = require('axios')
-const API_URL = 'http://api.mdex.cc'
+const API_URL = 'http://api.mdex.com'
 const moment = require('moment')
 const { graph_client, block_client } = require('./utils/graphql')
 const { gql } = require('graphql-request')
