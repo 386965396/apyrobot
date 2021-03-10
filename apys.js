@@ -256,14 +256,14 @@ const coins = [
   {
     pid: 37,
     lpAddresses: '0xb8314524e92B3228cA09fF2AD3e0ab08F4622673',
-    tokenAddresses: '0xb1f80844a1b84c61ab80cafd88b1f8c09f9342e1',
+    tokenAddresses: '0x25d2e80cb6b86881fd7e07dd263fb79f4abe033c',
     symbol: 'BEE/MDX',
     islp: true
   },
   {
     pid: 38,
     lpAddresses: '0xA4493e679Aec8Ec0F140D86900d982036F9e9Aa5',
-    tokenAddresses: '0x1e6395e6b059fc97a4dda925b6c5ebf19e05c69f',
+    tokenAddresses: '0x25d2e80cb6b86881fd7e07dd263fb79f4abe033c',
     symbol: 'CAN/MDX',
     islp: true
   }
