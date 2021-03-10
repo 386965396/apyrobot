@@ -218,18 +218,55 @@ const coins = [
     symbol: 'HBTC/ETH',
     islp: true
   },
-  // {
-  //   pid: 32,
-  //   lpAddresses: '0x2Fb4bE0F2785bD6009A383f3290CC97A4e3bD46B',
-  //   tokenAddresses: '0x66a79d23e58475d2738179ca52cd0b41d73f0bea',
-  //   symbol: 'HBTC/MDX'
-  // },
-  // {
-  //   pid: 33,
-  //   lpAddresses: '0xb55569893b397324c0d048c9709F40c23445540E',
-  //   tokenAddresses: '0x64ff637fb478863b7468bc97d30a5bf3a428a1fd',
-  //   symbol: 'ETH/MDX'
-  // }
+  {
+    pid: 32,
+    lpAddresses: '0x2Fb4bE0F2785bD6009A383f3290CC97A4e3bD46B',
+    tokenAddresses: '0x66a79d23e58475d2738179ca52cd0b41d73f0bea',
+    symbol: 'HBTC/MDX',
+    islp: true
+  },
+  {
+    pid: 33,
+    lpAddresses: '0xb55569893b397324c0d048c9709F40c23445540E',
+    tokenAddresses: '0x64ff637fb478863b7468bc97d30a5bf3a428a1fd',
+    symbol: 'ETH/MDX',
+    islp: true
+  },
+  {
+    pid: 34,
+    lpAddresses: '0x18B83288237fCe1c44f332Ed6Ca851584f66E2a4',
+    tokenAddresses: '0x34d75515090902a513f009f4505a750efaad63b0',
+    symbol: 'MKR/USDT',
+    islp: true
+  },
+  {
+    pid: 35,
+    lpAddresses: '0x78B3c20c56D4B3Ef133FD4f00a0293c10b380E40',
+    tokenAddresses: '0xce0a5ca134fb59402b723412994b30e02f083842',
+    symbol: 'COMP/USDT',
+    islp: true
+  },
+  {
+    pid: 36,
+    lpAddresses: '0xCf9Bb6F88c5B6dDb5c067a0C6d6Ae872f895B033',
+    tokenAddresses: '0x4e252342cf35ff02c4cca9bc655129f5b4a2f901',
+    symbol: 'SLNV2/USDT',
+    islp: true
+  },
+  {
+    pid: 37,
+    lpAddresses: '0xb8314524e92B3228cA09fF2AD3e0ab08F4622673',
+    tokenAddresses: '0xb1f80844a1b84c61ab80cafd88b1f8c09f9342e1',
+    symbol: 'BEE/MDX',
+    islp: true
+  },
+  {
+    pid: 38,
+    lpAddresses: '0xA4493e679Aec8Ec0F140D86900d982036F9e9Aa5',
+    tokenAddresses: '0x1e6395e6b059fc97a4dda925b6c5ebf19e05c69f',
+    symbol: 'CAN/MDX',
+    islp: true
+  }
 ]
 
 const ming_pairs = [
@@ -283,8 +320,8 @@ const swapContract = new provider.eth.Contract(swapAbi, swapAddress)
 const BLOCKS_PER_YEAR = 10512000
 const BLOCKS_LP_24HR = 28800
 const BLOCKS_SWAP_24HR = 28800
-const MDX_SWAP_BLOCK = 52.7
-const MDX_LP_BLOCK = 27.3
+const MDX_SWAP_BLOCK = 53.5
+const MDX_LP_BLOCK = 26.5
 let chefAllocPoint = 0
 
 const initChefWeight = async () => {
